@@ -1,0 +1,93 @@
+.Wrapper {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 50px 10px;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1400px) {
+    .Wrapper {
+        grid-template-columns: 400px 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .Wrapper {
+        grid-template-columns: 100%;
+    }
+}
+
+
+
+
+
+
+.Description {
+    margin-top: 5px;
+}
+
+.Title {
+    margin: 10px 0 2px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.Price {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+
+.ProductPreview {
+    height: 320px;
+    width: 399px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1400px) {    
+    .ProductPreview {
+        margin: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .ProductPreview {
+        width: 100%;
+        background-position: center;
+    }
+}
+
+
+
+.Product {
+    padding: 10px;
+    width: 400px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.Product:hover {
+    outline: solid;
+    outline-color: #8b141e;
+}
+
+@media (max-width: 1400px) {  
+    .Product {
+        width: 400px;
+        margin: auto;
+    }  
+}
+
+@media (max-width: 900px) {
+    .Product {
+        width: 100%;
+    }
+}

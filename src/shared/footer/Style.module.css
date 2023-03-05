@@ -1,0 +1,12 @@
+.Wrapper {
+    padding: 20px;
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3A0005;
+    color: white;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+}

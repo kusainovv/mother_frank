@@ -1,0 +1,138 @@
+.MainInformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+@media (max-width: 1280px) {
+    .MainInformation {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+.Information {}
+@media (max-width: 1280px) {
+    .Information {
+        width: 100%;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+.Preview {
+    width: 755px;
+    height: 755px;   
+}
+@media (max-width: 1280px) {
+    .Preview {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+
+.Title {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.Price {
+    margin: 8px 0 0 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.Sizes {
+    margin: 24px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.Size {
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid #6E6E6E;
+    color: black;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Size:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.Button {
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+.AdditionalInformation {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+
+.Option {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+
+.FullDescription {
+    margin-top: 50px;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 600px;
+    line-height: 28px;
+    margin: auto;
+}
+@media (max-width: 1280px) {
+    .FullDescription {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 50px;
+    }
+}
