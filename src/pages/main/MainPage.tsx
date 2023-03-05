@@ -4,7 +4,7 @@ import { ProductsList } from "@/widgets/ProductsList/ProductsList";
 import React from "react";
 import style from './Style.module.css';
 
-export const MainPage = () => <div className={style['Page']}>
+const MainPage = () => <div className={style['Page']}>
     <Header />
 
     <div>
@@ -13,3 +13,6 @@ export const MainPage = () => <div className={style['Page']}>
 
     <Footer />
 </div>;
+
+
+export default MainPage;
