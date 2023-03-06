@@ -17,9 +17,6 @@
 
 
 
-.Information {
-    margin-top: 50px;
-}
 @media (max-width: 1280px) {
     .Information {
         width: 100%;
@@ -37,12 +34,22 @@
 .Preview {
     width: 755px;
     height: 755px;   
-    background-size: contain;
-    background-repeat: unset;
+    background-size: contain;  
+    background-repeat: no-repeat;
 }
 @media (max-width: 1280px) {
     .Preview {
-        width: 100%;
+        width: 400px;
+        height: 400px;
+        background-size: contain;
+        background-position: center;
+    }
+}
+@media (max-width: 600px) {
+    .Preview {
+        max-width: 100%;
+        height: 400px;
+        background-size: contain;
         background-position: center;
     }
 }
@@ -54,15 +61,25 @@
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+@media (max-width: 600px) {
+    .Title {
+        font-size: 16px;
+    }
+}
 
 
 
 .Price {
-    margin: 4px 0 0 0;
+    margin: 0;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-
+@media (max-width: 600px) {
+    .Price {
+        width: 100%;
+        font-size: 14px;
+    }
+}
 
 
 .Sizes {
@@ -104,6 +121,12 @@
     color: white;
     background-color: black;
 }
+@media (max-width: 600px) {
+    .Button {
+        width: 100%;
+    }
+}
+
 
 
 
