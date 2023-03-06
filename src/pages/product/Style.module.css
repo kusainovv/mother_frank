@@ -17,7 +17,9 @@
 
 
 
-.Information {}
+.Information {
+    margin-top: 50px;
+}
 @media (max-width: 1280px) {
     .Information {
         width: 100%;
@@ -25,17 +27,22 @@
         box-sizing: border-box;
     }
 }
-
+@media (max-width: 600px) {
+    .FullDescription {
+        padding: 0 20px
+    }
+}
 
 
 .Preview {
     width: 755px;
     height: 755px;   
+    background-size: contain;
+    background-repeat: unset;
 }
 @media (max-width: 1280px) {
     .Preview {
         width: 100%;
-        background-repeat: no-repeat;
         background-position: center;
     }
 }
@@ -51,7 +58,7 @@
 
 
 .Price {
-    margin: 8px 0 0 0;
+    margin: 4px 0 0 0;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -84,11 +91,13 @@
 
 
 .Button {
+    padding: 0 20px;
     height: 40px;
-    background-color: #333333;
+    background-color: #000000;
     color: white;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    border: none;
     transition: 0.4s;
 }
 .Button:hover {
@@ -106,7 +115,7 @@
 
 
 .Option {
-    margin: 8px 0;
+    margin: 2px 0;
     font-size: 14px;
     font-weight: 600;
 }
@@ -124,9 +133,8 @@
     margin-top: 50px;
     padding: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     width: 600px;
-    line-height: 28px;
     margin: auto;
 }
 @media (max-width: 1280px) {
@@ -134,5 +142,15 @@
         width: 100%;
         box-sizing: border-box;
         padding: 50px;
+    }
+}
+@media (max-width: 800px) {
+    .FullDescription {
+        font-size: 12px;
+    }
+}
+@media (max-width: 600px) {
+    .FullDescription {
+        padding: 50px 20px
     }
 }
