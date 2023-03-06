@@ -1,6 +1,6 @@
 .MainInformation {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 1200px;
     margin: auto;
@@ -36,6 +36,8 @@
     height: 755px;   
     background-size: contain;  
     background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.4s;
 }
 @media (max-width: 1280px) {
     .Preview {
@@ -176,4 +178,28 @@
     .FullDescription {
         padding: 50px 20px
     }
+}
+
+
+
+
+
+
+.MainInformationSlider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    .MainInformationSlider {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+
+
+.NavigationArrow {
+    cursor: pointer;
 }
