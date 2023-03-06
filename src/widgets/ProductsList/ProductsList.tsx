@@ -6,6 +6,7 @@ export const ProductsList = () => <div className={style['Wrapper']}>
 	{
 		[
 			{title: 'Punk not die', price: '4.000Р', href: 1},
+			{title: 'Punk not die', price: '4.000Р', href: 2},
 		].map((product, idx) => <Link className={style['Product']} href={`/product/${product.href}`} key={idx}>
 			<div className={style['ProductPreview']} style={{
                 backgroundImage: `url(./img/item.png)`

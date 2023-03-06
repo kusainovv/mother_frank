@@ -1,0 +1,26 @@
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #3A0005;
+    color: white;
+}
+
+.Information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 500px;
+    margin: auto;
+}
+
+.Rule {
+    margin-bottom: 20px;
+}
+
+.Link {
+    font-size: 16px;
+    color: white;
+}
