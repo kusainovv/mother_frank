@@ -6,6 +6,7 @@ import { Header } from '@/shared/header/Header';
 const ProductPage = () => {
 	const [currentSlide, setCurrentSlide] = useState(0);
 	const images = [`url(/img/item_main.png)`, `url(/img/slide_1.jpg)`, `url(/img/slide_2.jpg)`, `url(/img/slide_3.jpg)`];
+	console.warn(currentSlide)
 	return <div className={style['Page']}>
 		<Header />
 
@@ -16,7 +17,7 @@ const ProductPage = () => {
 						<svg
 							className={style['NavigationArrow']}
 							onClick={() => {
-								setCurrentSlide(currentSlide - 1 === 0 ? images.length : currentSlide - 1);
+								setCurrentSlide(currentSlide - 1 === -1 ? images.length - 1 : currentSlide - 1);
 							}}
 							width="30px"
 							viewBox="0 0 24 24"
@@ -81,9 +82,9 @@ const ProductPage = () => {
 			<div className={style['FullDescription']}>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facere, dolore recusandae tenetur mollitia laudantium modi possimus obcaecati deserunt voluptatem nam voluptate doloribus perspiciatis corrupti iusto illo maiores. Ab non delectus illo provident nostrum obcaecati ut reiciendis reprehenderit. Facere atque quas nam quaerat, incidunt impedit ab ducimus nisi et distinctio fugit doloremque quam ratione esse natus ut aspernatur voluptatum libero? Voluptatem animi, rerum ipsa porro veniam pariatur aut commodi sint dolorem a harum esse, facilis asperiores dolorum laboriosam deserunt eveniet enim! Optio nemo dolore, ea quas assumenda repellendus praesentium ad aut modi, fugit cum saepe, a atque? Voluptate voluptates eaque exercitationem itaque doloremque eos ipsam? Placeat sequi in ad accusamus sit natus fugiat necessitatibus laboriosam. Libero pariatur incidunt sunt non quidem similique, blanditiis natus? Tenetur laborum quos quo.
 			</div>
-
-			<Footer />
 		</div>
+
+		<Footer />
 	</div>
 };
 
