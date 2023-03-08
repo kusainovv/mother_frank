@@ -15,6 +15,9 @@
     text-align: center;
     font-size: 21px;
 }
+.Title:first-child {
+    margin: 40px 0 30px 0;
+}
 
 .Rules {
     padding: 10px;
@@ -31,6 +34,8 @@
 
 .RuleLink {
     width: fit-content;
+    color: #3A0005;
+    font-weight: 500;
 }
 
 
@@ -81,4 +86,24 @@
 .SelectField {
     margin: 10px 0 10px 0;
     width: 400px;
+}
+
+
+.Steps {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.StepImages {
+    text-align: left;
+    padding: 0 10px;
+    border-left: 2px solid #3A0005;
+}
+
+.VerticalLine {
+    width: 2px;
+    height: 40px;
+    background-color: black;
+    margin: 25px auto;
 }
