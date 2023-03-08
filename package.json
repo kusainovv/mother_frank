@@ -21,7 +21,6 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "react-multi-select-component": "^4.3.4"
+    "babel-plugin-styled-components": "^2.0.7"
   }
 }

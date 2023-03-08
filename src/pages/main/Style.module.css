@@ -8,8 +8,8 @@
 .Banner {
     padding: 12px;
     text-align: center;
-    background-color: rgb(204, 255, 0);
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 16px;
     border-bottom: 1px solid black;
     transition: 0.4s;
