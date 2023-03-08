@@ -38,7 +38,7 @@ const SellProduct = () => {
                     <div className={style['TelegramMessageContent']}>
                         <p> 1. {productSettings.title || 'Пусто'}</p>
                         <p> 2. {productSettings.price || 'Пусто'}</p>
-                        <p> 3. {sizes.length ? sizes.map((size, idx) => <React.Fragment key={idx}>{size.label}</React.Fragment>) : 'Пусто'}</p>
+                        <p> 3. {sizes.length ? sizes.map((size: { label: string }, idx) => <React.Fragment key={idx}>{size.label}</React.Fragment>) : 'Пусто'}</p>
                         <p> 4. {productSettings.telegram_username || 'Пусто'}</p>
                         <p> 5. {productSettings.about || 'Пусто'}</p>
                         <p> 6. {productSettings.recommendation || 'Пусто'}</p>

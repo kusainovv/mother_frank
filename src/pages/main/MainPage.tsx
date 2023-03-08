@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { Footer } from "@/shared/footer/Footer";
 import { Header } from "@/shared/header/Header";
 import { ProductsList } from "@/widgets/ProductsList/ProductsList";
