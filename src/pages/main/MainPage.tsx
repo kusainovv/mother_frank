@@ -5,8 +5,12 @@ import React from "react";
 import style from './Style.module.css';
 
 const MainPage = () => <div className={style['Page']}>
-    <Header />
+    <a href='/sell_product' className={style['Banner']}>
+        Продать вещь
+    </a>
 
+    <Header />
+    
     <div>
         <ProductsList />
     </div>
